@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <>
         {/* Banner */}
-              <div id="banner" className="flex flex-col">
+              <section id="banner" className="flex flex-col">
                 <div className="max-w-6xl mx-auto py-40">
                   <div className="flex flex-col gap-10">
                     <div className="flex items-center gap-96">
@@ -41,7 +41,7 @@ const Banner = () => {
                     
                   </div>
                 </div>
-              </div>
+              </section>
     </>
   );
 };

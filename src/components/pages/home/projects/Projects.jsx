@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
   return (
     <>
-        <div id="projects" className="flex flex-col">
+        <section id="projects" className="flex flex-col">
         <div className="max-w-6xl mx-auto py-32 ">
           <p className="font-bold text-5xl mb-10 text-[#3E7D7B]">My Projects</p>
           <div className="grid grid-cols-3 gap-8">
@@ -24,7 +24,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

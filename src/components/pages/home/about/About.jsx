@@ -4,7 +4,7 @@ import { FaArrowCircleRight } from 'react-icons/fa';
 const About = () => {
   return (
     <>
-        <div id="about" className="flex flex-col bg-[#3E7D7B] text-white">
+        <section id="about" className="flex flex-col bg-[#3E7D7B] text-white">
         <div className="max-w-6xl mx-auto py-32">
           <h1 className="text-6xl font-bold mb-20">About Me</h1>
           <div className="flex flex-cols-2 gap-32">
@@ -81,7 +81,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
