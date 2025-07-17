@@ -104,6 +104,13 @@ function App() {
             </div>
           </div>
         </section>
+
+        <div className="py-20 px-4">
+          <div class="relative w-64 h-64 hexagon-soft bg-gradient-to-br from-pink-300 to-purple-400 shadow-2xl rounded-full shadow-pink-400">
+        <img src="./images/1x1.png" alt="Profile" class="absolute inset-0 size-10 object-cover hexagon-soft top-10 left-11 " />
+      </div>
+        </div>
+        
     </>
   );
 };
