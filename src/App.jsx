@@ -8,6 +8,24 @@ function App() {
   return (
     <>
     <Home/>
+
+        {/* <!-- Header --> */}
+  <header class="px-6 md:px-20 py-6 flex items-center justify-between">
+    <div class="text-lg font-bold text-green-400">Portfolio</div>
+    <nav class="hidden md:flex gap-8 items-center">
+      <a href="#" class="text-black hover:text-green-400">Home</a>
+      <a href="#" class="text-black hover:text-green-400">Projects</a>
+      <a href="#" class="text-black hover:text-green-400">Resume</a>
+    </nav>
+    <div class="relative">
+      <input type="text" placeholder="Search..." class="pl-4 pr-10 py-2 rounded-full text-sm bg-[#1f2937] text-white placeholder-gray-400 focus:outline-none"/>
+      <button class="absolute right-2 top-1/2 transform -translate-y-1/2 text-green-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16l-4-4m0 0l4-4m-4 4h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
         {/* <!-- Hero Section --> */}
         <section class="px-6 md:px-20 py-12">
           <div class="flex flex-col md:flex-row items-center justify-between gap-10">
@@ -48,12 +66,12 @@ function App() {
         </section>
 
         {/* <!-- What I Do Section --> */}
-        {/* <section class="bg-[#0e1a2b] px-6 md:px-20 py-16">
+        <section class="bg-[#0e1a2b] px-6 md:px-20 py-16">
           <p class="text-green-400 mb-2">My services</p>
           <h2 class="text-3xl md:text-4xl font-bold mb-10">What I Do</h2>
-          <div class="grid gap-6 md:grid-cols-3"> */}
+          <div class="grid gap-6 md:grid-cols-3">
             {/* <!-- Card 1 --> */}
-            {/* <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
+            <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
               <div class="mb-4">
                 <div class="text-green-400 text-2xl font-bold">UX/UI</div>
               </div>
@@ -61,10 +79,10 @@ function App() {
               <p class="text-gray-400 text-sm">
                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
               </p>
-            </div> */}
+            </div>
 
             {/* <!-- Card 2 --> */}
-            {/* <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
+            <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
               <div class="mb-4">
                 <div class="text-green-400 text-2xl font-bold">Icon</div>
               </div>
@@ -72,10 +90,10 @@ function App() {
               <p class="text-gray-400 text-sm">
                 Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
               </p>
-            </div> */}
+            </div>
 
             {/* <!-- Card 3 --> */}
-            {/* <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
+            <div class="bg-[#1f2937] p-6 rounded-lg hover:shadow-lg transition">
               <div class="mb-4">
                 <div class="text-green-400 text-2xl font-bold">Web</div>
               </div>
@@ -85,7 +103,7 @@ function App() {
               </p>
             </div>
           </div>
-        </section> */}
+        </section>
     </>
   );
 };
