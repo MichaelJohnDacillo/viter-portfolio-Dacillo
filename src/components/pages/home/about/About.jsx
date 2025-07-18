@@ -8,9 +8,16 @@ const About = () => {
         <div className="max-w-6xl mx-auto py-32">
           <h1 className="text-6xl font-bold mb-20">About Me</h1>
           <div className="flex flex-cols-2 gap-32">
-            <div className="rounded-lg p-2 bg-[#3E7D7B] ring-2 ring-[#F1CCC2] ring-offset-1">
-              <img src="./images/2.jpg" alt="" className="w-72 rounded-lg" />
-            </div>
+            <div className="justify-items-center">
+                <div className="flex items-center justify-center">
+                  <div className="relative h-[30rem] w-72 bg-[#fceae5] hexagon "></div>
+                  <img
+                    src="./images/2.webp"
+                    alt=""
+                    className="absolute h-96 w-56 hexagon"
+                  />
+                </div>
+              </div>
             <div>
               <div className="max-w-[50rem] mb-10">
                 <p className="leading-loose">
@@ -45,36 +52,25 @@ const About = () => {
                   <div className="flex flex-col gap-4">
                     <div className="flex gap-2">
                       <FaArrowCircleRight className="text-2xl" />
-                      <p>Suntok</p>
+                      <p>Racket Games</p>
                     </div>
                     <div className="flex gap-2">
                       <FaArrowCircleRight className="text-2xl" />
-                      <p>Sipa</p>
+                      <p>Speed Cubing wihtout speed</p>
                     </div>
                     <div className="flex gap-2">
                       <FaArrowCircleRight className="text-2xl" />
-                      <p>Tadyak</p>
+                      <p>Watching Animes</p>
                     </div>
                     <div className="flex gap-2">
                       <FaArrowCircleRight className="text-2xl" />
-                      <p>Siko</p>
+                      <p>Sleeping in my Dreams</p>
                     </div>
                     <div className="flex gap-2">
                       <FaArrowCircleRight className="text-2xl" />
-                      <p>Sapak</p>
+                      <p>Singing with Discuting Voice</p>
                     </div>
-                    <div className="flex gap-2">
-                      <FaArrowCircleRight className="text-2xl" />
-                      <p>Sampal</p>
-                    </div>
-                    <div className="flex gap-2">
-                      <FaArrowCircleRight className="text-2xl" />
-                      <p>Brutality</p>
-                    </div>
-                    <div className="flex gap-2">
-                      <FaArrowCircleRight className="text-2xl" />
-                      <p>Fatality</p>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
